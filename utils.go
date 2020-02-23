@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Ylazerson/chitchat/data"
+	"github.com/jdavid1234/chitchat/data"
 )
 
 type Configuration struct {

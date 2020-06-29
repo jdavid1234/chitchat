@@ -151,14 +151,14 @@ Approach taken here is based on:
 
 #### Step 1:
 - Buy a custom domain name (I used name.com)
-- Example used below is for domain `b7forum.com`
+- Example used below is for domain `davidforum.com`
 
 #### Step 2:
 
 ```sh
-heroku domains:add www.b7forum.com
+heroku domains:add www.davidforum.com
 
-heroku domains:wait 'www.b7forum.com' 
+heroku domains:wait 'www.davidforum.com' 
 ```
 
 Note the output; configure your app's DNS provider to point to the DNS Target:
@@ -168,9 +168,9 @@ Note the output; configure your app's DNS provider to point to the DNS Target:
 #### Step 3: Add a custom root domain.
 
 ```sh
-heroku domains:add b7forum.com
+heroku domains:add davidforum.com
 
-heroku domains:wait 'b7forum.com' 
+heroku domains:wait 'davidforum.com' 
 ```
 
 Note the output, configure your app's DNS provider to point to the DNS Target:
